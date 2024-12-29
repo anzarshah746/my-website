@@ -1,80 +1,99 @@
-h1{
-    padding-top: 50px;
-    color:black;
-    text-align: center;
+body { 
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+ margin: 0;
+   padding: 0; 
+   background-color: #f9f9f9; 
+   color: #333;
+   overflow-y: scroll;
+}
+.header { 
+    background-color: #333;
+    color:bisque; 
+    padding: 20px;
+    font-size: 20px;
+ display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+} 
+ .logo-text {
+    font-size: 30px;
+    color: bisque;
+    font-weight: bold;
+    padding-left: 40px;
+    }       
+      
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+    }
     
-}
+    nav ul li {
+        display: inline;
+        margin: 0 10px;
+    }
+    
+    nav ul li a {
+        color:bisque;
+        text-decoration: none;
+    }
 h2{
-    color:black;
-}
-body {
-    background-color: bisque;
-    color: blueviolet;
-    font-family: times 'Times New Roman', Times, serif;
-    font-size: 16px;
+    padding-top: 20px;
     text-align: center;
-    margin: 0px;
-    padding:0px;
+    color: black;
 }
 p{
+    text-align: center;
     font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
 }
-
-img{
-    width:50px;
-    text-align: left;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-footer{
-    background-color: rgb(153, 80, 80);
-    color:rgb(241, 240, 238);
-    position: fixed;
-    bottom: 0%;
-    width: 100%;
-    text-align: center;
-    padding: 10px 0;
-}
-header{
-    background-color: rgb(153, 80, 80);
-    width: 100%;
+.card{
     
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border: none;
+    }
+.footer {
+        background-color: #1e1e1e; 
+        color: #ccc;
+        position: fixed;
+        bottom: 0%;
+        width: 100%;
+        text-align: center;
+        padding:30px;
+    }
     
-    text-align: center;
-    padding: 10px 20px;
-}
-
-p2{
-    color:rgb(31, 10, 10);
-text-align: center;
-}
-.reuqired{
-    content: "*";
-    color:red;
-}
-button{
-    background-color: blanchedalmond;
-    padding: 10px;
-    border: dodgerblue;
-}
-label{
-    margin-bottom: 20px;
-    margin-top: 40px;
-font-weight: bold;
-
-}
+    .footer a {
+    color: #ffcc00; 
+ text-decoration: none;
+    }
+    
+    #contact{
+        padding-top: 150px;
+    }
+    .fff{
+        padding-top: 100px;
+    }
+    .container mt-5{
+        padding-top: 150px;
+    }
+    #see-more-btn{
+       height: 70px;
+       width: 150px;
+       display: block;
+       margin: 20px auto; 
+       padding-top: 10px 20px;
+       background-color: #333;
+       color: white;
+       border: none;
+       border-radius: 5px;
+       cursor: pointer; 
+       }
+       .ppp{
+        padding-top: 80px;
+       }
+       .pppp{
+        padding-top: 10px;
+       }
